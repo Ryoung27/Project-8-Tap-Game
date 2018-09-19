@@ -14,6 +14,7 @@
 		02674BF021528CC9003C548D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02674BEE21528CC9003C548D /* LaunchScreen.storyboard */; };
 		02674BFB21528CCA003C548D /* Project8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674BFA21528CCA003C548D /* Project8Tests.swift */; };
 		02674C0621528CCA003C548D /* Project8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674C0521528CCA003C548D /* Project8UITests.swift */; };
+		02674C142152DF85003C548D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 02674C132152DF85003C548D /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		02674C0121528CCA003C548D /* Project8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02674C0521528CCA003C548D /* Project8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8UITests.swift; sourceTree = "<group>"; };
 		02674C0721528CCA003C548D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02674C132152DF85003C548D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		02674BE421528CC9003C548D /* Project8 */ = {
 			isa = PBXGroup;
 			children = (
+				02674C132152DF85003C548D /* level1.txt */,
 				02674BE521528CC9003C548D /* AppDelegate.swift */,
 				02674BE721528CC9003C548D /* ViewController.swift */,
 				02674BE921528CC9003C548D /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02674BF021528CC9003C548D /* LaunchScreen.storyboard in Resources */,
+				02674C142152DF85003C548D /* level1.txt in Resources */,
 				02674BED21528CC9003C548D /* Assets.xcassets in Resources */,
 				02674BEB21528CC9003C548D /* Main.storyboard in Resources */,
 			);
@@ -439,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project1.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -456,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project1.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
